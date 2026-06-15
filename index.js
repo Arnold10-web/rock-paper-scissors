@@ -36,9 +36,10 @@ else{
         console.log(`Round ${i+1}`);
          const humanSelection = getHumanChoice();
          const computerSelection = getComputerChoice();
-    playGame(humanSelection,computerSelection);
-    console.log("Game Over");
+    playRound(humanSelection,computerSelection);
+   
     }
+     console.log("Game Over");
  }
 
  playGame();
